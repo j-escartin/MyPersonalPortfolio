@@ -12,7 +12,7 @@ export default function PortfolioHeader() {
           className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-9 lg:h-9 xl:w-10 xl:h-10"
         />
       </div>
-      <h1 className="text-sm sm:text-base md:text-xl lg:text-2xl font-semibold text-center flex-1">
+      <h1 className="text-sm sm:text-base md:text-xl lg:text-2xl font-bold text-center flex-1">
         James Vincent Escartin
       </h1>
       <div className="flex items-center gap-4">

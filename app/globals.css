@@ -14,7 +14,28 @@ body {
 }
 
 @layer components {
+  .gen-container {
+    @apply w-full flex justify-center
+  }
+
   .menu-item {
     @apply px-4 md:px-5 lg:px-6 py-1 md:py-2 lg:py-3 text-center hover:bg-gray-200 cursor-pointer;
   }
+
+  .title {
+    @apply text-xl md:text-2xl font-bold
+  }
+
+  .about-paragraph {
+    @apply first-letter:text-3xl md:first-letter:text-4xl first-letter:font-bold first-letter:mr-2 first-letter:float-left;
+  }
+
+  .icons-size {
+    @apply w-[50px] h-[50px] md:w-[70px] md:h-[70px];
+  }
+
+  .icon-container {
+    @apply flex justify-start gap-6 flex-wrap mt-4
+  }
+
 }
