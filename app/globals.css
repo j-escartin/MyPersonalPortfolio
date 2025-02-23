@@ -35,7 +35,7 @@ body {
   }
 
   .icon-container {
-    @apply flex justify-start gap-6 flex-wrap mt-4
+    @apply flex justify-center gap-6 flex-wrap mt-4
   }
 
 }

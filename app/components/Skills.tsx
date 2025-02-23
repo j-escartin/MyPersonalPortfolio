@@ -15,8 +15,8 @@ export default function Skills() {
   return (
     <div className='gen-container'>
       <div className='w-3/4 border-b border-gray-200 py-10'>
-        <div className='text-left text-darkgrey'>
-          <h1 className='title'>Skills</h1>
+        <div className='text-darkgrey'>
+          <h1 className='title text-center'>Skills</h1>
           <h3 className='mt-4 text-lg md:text-xl'>I'm decent at 😉</h3>
         </div>
         
