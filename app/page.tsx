@@ -18,13 +18,16 @@ export default function Home() {
         <PortfolioNavigation/>
       </div>
       <div className='pt-20 md:pt-32'>
-        <GeneralProfile/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Experience/>
-        <Education/>
-        <Contact/>
+        <div id="about">
+          <GeneralProfile/>
+          <About/>
+        </div>
+        
+        <div id="skills"><Skills/></div>
+        <div id="projects"><Projects/></div>
+        <div id="experience"><Experience/></div>
+        <div id="education"><Education/></div>
+        <div id="contact"><Contact/></div>
         <CopyRight/>
       </div>
     </div>
