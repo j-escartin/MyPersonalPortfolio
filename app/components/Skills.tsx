@@ -17,7 +17,7 @@ export default function Skills() {
       <div className='w-3/4 border-b border-gray-200 py-10'>
         <div className='text-darkgrey'>
           <h1 className='title text-center'>Skills</h1>
-          <h3 className='mt-4 text-lg md:text-xl'>I'm decent at 😉</h3>
+          <h3 className='mt-4 text-lg md:text-xl'>I&apos;m decent at 😉</h3>
         </div>
         
         <div className='icon-container'>
@@ -42,7 +42,7 @@ export default function Skills() {
         </div>
 
         <div className='text-left text-darkgrey mt-4'>
-          <h3 className='text-lg md:text-xl'>Things I've touched 😃</h3>
+          <h3 className='text-lg md:text-xl'>Things I&apos;ve touched 😃</h3>
         </div>
 
         <div className='icon-container'>

@@ -48,9 +48,9 @@ export default function Projects() {
           <div className='w-full md:w-1/2 space-y-4'>
             <h3 className='text-base md:text-lg font-semibold text-center md:text-start'>Patient Portal for SmartZhongyi</h3>
             <ul className='list-disc list-inside text-base md:text-lg text-justify space-y-2'>
-              <li>Initiated it's development as a way for patients to monitor their records, request and view appointments, retrieve receipts, etc.</li>
+              <li>Initiated it&apos;s development as a way for patients to monitor their records, request and view appointments, retrieve receipts, etc.</li>
               <li>
-                Prioritized responsive design to enhance accessibility across different devices, improving the portal's user-friendliness.
+                Prioritized responsive design to enhance accessibility across different devices, improving the portal&apos;s user-friendliness.
               </li>
               <li>
                 <span className='font-semibold'> Technologies: </span> PHP, Slim Micro Framework (RESTful API), Tailwind CSS, Next.js

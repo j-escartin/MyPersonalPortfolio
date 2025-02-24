@@ -15,7 +15,7 @@ export default function GeneralProfile() {
           />
         </div>
         <div className='text-center'>
-          <h1 className='title text-darkGrey'>Heyy! I’m James – Nice to meet you 👋</h1>
+          <h1 className='title text-darkGrey'>Heyy! I&apos;m James – Nice to meet you 👋</h1>
           <p className='text-base md:text-lg text-darkGrey'>A software engineer and writer</p>
           <q className='text-xs md:text-sm text-gray-400'>What I cannot create, I do not understand - Richard Feyman</q>
         </div>
