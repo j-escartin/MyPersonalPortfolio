@@ -28,7 +28,7 @@ export default function Experience() {
         <div>
           <div className='pl-6'>
             <h4 className='text-base font-bold'>Software Engineer Intern</h4>
-            <p className='text-sm text-gray-600'>July 2023 - October 2023</p>
+            <p className='text-sm text-gray-600'>July 2023 - September 2023</p>
             <ul className='list-disc pl-5 mt-2 space-y-2'>
               <li>
                 Enhanced and maintained key features like stock management 
