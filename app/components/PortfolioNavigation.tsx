@@ -10,12 +10,20 @@ export default function PortfolioNavigation(){
             "Experience",
             "Education",
             "Contact",
-            "Resume",
           ].map((item) => (
           <li key={item} className='menu-item'>
             <a href={`#${item.toLowerCase()}`}>{item}</a>
           </li>
         ))}
+          <li>
+            <a 
+              href='/resume.pdf'
+              download="JamesVincentEscartin_Resume.pdf" 
+              className="menu-item" 
+            >
+              Resume
+            </a>
+          </li>
       </ul> 
     </nav> 
   )
