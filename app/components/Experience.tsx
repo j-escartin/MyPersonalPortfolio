@@ -8,7 +8,7 @@ export default function Experience() {
         <div className='mb-8'>
           <h3 className='text-lg font-semibold mb-2'>Smmile Digital, Singapore</h3>
           <div className='pl-6'>
-            <h4 className='text-base font-bold'>Software Engineer</h4>
+            <h4 className='text-base font-bold'>Software Developer</h4>
             <p className='text-sm text-gray-600'>October 2023 - Present</p>
             <ul className='list-disc pl-5 mt-2 space-y-2'>
               <li>
@@ -27,7 +27,7 @@ export default function Experience() {
         {/*Job 2*/}
         <div>
           <div className='pl-6'>
-            <h4 className='text-base font-bold'>Software Engineer Intern</h4>
+            <h4 className='text-base font-bold'>Software Developer Intern</h4>
             <p className='text-sm text-gray-600'>July 2023 - September 2023</p>
             <ul className='list-disc pl-5 mt-2 space-y-2'>
               <li>

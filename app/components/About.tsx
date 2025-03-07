@@ -9,7 +9,7 @@ export default function About() {
           to further my studies and competencies.
         </p>
         <p className='mt-4 about-paragraph'>
-          Got 2 years of experience in the industry – as a software engineer @Smmile, 
+          Got 2 years of experience in the industry – as a software developer @Smmile, 
           Singapore. Just recently graduated? Yeah,
           I just do it while studying to have practical applications for my learning. 
           I enjoyed working on backend development because I like discussing Algorithms and System Architecture.
