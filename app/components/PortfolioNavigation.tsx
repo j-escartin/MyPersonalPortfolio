@@ -24,6 +24,16 @@ export default function PortfolioNavigation(){
               Resume
             </a>
           </li>
+          <li>
+            <a 
+              href='https://www.loom.com/share/675dc156e32a4899a1cc4abe7925b6f0?sid=f9059f67-b938-4144-9a50-1e9ae0a4d1d8'
+              target="_blank"
+              rel="noopener noreferrer"
+              className="menu-item" 
+            >
+              Watch Me
+            </a>
+          </li>
       </ul> 
     </nav> 
   )
