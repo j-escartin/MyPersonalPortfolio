@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Szy from '../../lib/image/szy.png';
 import PatientPortal from '../../lib/image/patientPortal.png';
+import KnowYourNeighborhood from '../../lib/image/knowYourNeighborhood.png';
 
 export default function Projects() {
   return(
@@ -58,6 +59,65 @@ export default function Projects() {
             </ul>
           </div>
         </div>
+
+        <div className='flex flex-col md:flex-row items-center w-full gap-8 mt-4'>
+          <div className='w-full md:w-1/2 flex justify-center'>
+            <Image 
+              src={KnowYourNeighborhood} 
+              alt='Know Your Neighborhood' 
+              width={400} 
+              height={400}
+              className='object-cover'
+            />
+          </div>
+          
+          <div className='w-full md:w-1/2 space-y-4'>
+            <h3 className='text-base md:text-lg font-semibold text-center md:text-start'>Know-Your-Neighborhood</h3>
+            <ul className='list-disc list-inside text-base md:text-lg text-justify space-y-2'>
+              <li>Backend design and development using Spring Boot and JPA Framework.</li>
+              <li>
+                Developed APIs using Restful Web Services.
+              </li>
+              <li>
+                Developed front-end applications using React JS.
+              </li>
+              <li>
+                Identified existing APIs and their use in already developed applications
+              </li>
+              <li>
+                <span className='font-semibold'> Technologies: </span> Spring Tool Suite, Visual Studio Code, MySQL WorkBench, Postman
+              </li>   
+            </ul>
+            <div className='mt-2'>
+              <a 
+                href="https://github.com/j-escartin/Know-Your-Neighborhood?tab=readme-ov-file"
+                target="_blank"
+                rel='noopener noreferrer'
+                className='text-white bg-darkGrey  text-base md:text-lg py-1 px-3 md:py-2 md:px-4 rounded-md text-center hover:bg-gray-700'
+              >
+                See Github Repo
+              </a>
+            </div>
+            
+          </div>
+        </div>
+
+        <div className='flex flex-col md:flex-row items-center justify-center w-full gap-8 mt-16'>
+          <div className='mt-2'>
+            <a 
+              href="https://github.com/j-escartin?tab=repositories"
+              target="_blank"
+              rel='noopener noreferrer'
+              className='text-white bg-darkGrey text-base md:text-lg py-1 px-3 md:py-2 md:px-4 rounded-md text-center hover:bg-gray-700'
+            >
+              See Other Projects
+            </a>
+          </div>
+        </div>
+
+        
+
+
       </div>
     </div>
   )
